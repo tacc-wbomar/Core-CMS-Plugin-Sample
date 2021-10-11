@@ -1,7 +1,7 @@
 ## Texas Advanced Computing Center
 # Django CMS Plugin: Sample (Greet User)
 
-This plugin greets a user by name, and serves as a sample TACC Core CMS plugin.
+This plugin greets a user by name, and serves as a sample plugin for https://github.com/TACC/Core-CMS.
 
 - __`__plugin_name__`__: `taccsite_sample`
 - __`__PluginName__`__: `TaccsiteSample`
