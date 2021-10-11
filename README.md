@@ -1,38 +1,27 @@
 ## Texas Advanced Computing Center
-# Django CMS ______ Plugin
+# Django CMS Plugin (for TACC/Core-CMS): Sample (Greet User)
 
-\_\_plugin_name\_\_ does something.
+This plugin greets a user by name, and serves as a sample TACC Core CMS plugin.
 
-## For Plugin Developer
-
-After cloning this repository for your plugin:
-
-1. Follow https://github.com/tacc-wbomar/Core-CMS-Plugin/wiki/Core-CMS-Plugin-Development-Quick-Start.
-2. Remove this section from your repository's `README.md`.
-
+- __`__plugin_name__`__: `taccsite_sample`
+- __`__PluginName__`__: `TaccsiteSample`
+- __"Plugin Name"__: "Sample (Greet User)"
 
 ## Quick Start
 
 1. Follow https://github.com/tacc-wbomar/Core-CMS-Plugin/wiki/Core-CMS-Plugin-Usage-Quick-Start.
 
-> The next steps are sample steps that should be replaced with plugin-specific steps, if any.
+## Usage
 
-2. Any step that is specific to the plugin, such as the steps after this.
+1. Add instance of plugin to a page.
+1. Set the "Guest Name" to any value.
+1. See plugin output when logged in and not logged in.
 
-    ```
-    # provide minimal example code that may help the reader
-    ```
+## Features
 
-3. Add a URLconf in your Django project's `urls.py` like this:
-
-    ```
-        url(r'^sysmon/', include('\_\_plugin_name\_\_.urls')),
-    ```
-
-4. Add `__plugin_name_some_prop__` property and value to your Django project's settings:
-
-    ```
-    __plugin_name_some_prop__ = 'specific_value'
-    ```
-
-5. Visit [http://your.project.url.host/some_plugin_url_path/](http://127.0.0.1:8000/ "The URL for your environment may be different than this.").
+1. Greets guest user as "Guest", unless configured otherwise.
+1. Greets guest user by guest name set via plugin instance.
+1. Greets logged in user by name based on available user data:
+    - "FirstName LastName"
+    - "FirstName"
+    - "username"

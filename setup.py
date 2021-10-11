@@ -8,14 +8,14 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='__plugin_name__',
+    name='taccsite_sample',
     version='0.1',
     packages=find_packages(),
     include_package_data=True,
-    license='BSD License', # example license
-    description='__PLUGIN_DESC__',
+    license='BSD License',
+    description='A sample DjangoCMS plugin (for TACC Core CMS) to greet a user.',
     long_description=README,
-    url='https://github.com/TACC/Core-CMS-Plugin-__Plugin_Name__/',
+    url='https://github.com/TACC/Core-CMS-Plugin-Sample/',
     author='Wesley Bomar',
     author_email='wbomar@tacc.utexas.edu',
     # SEE: https://pypi.org/classifiers/
