@@ -1,3 +1,8 @@
+{% block before_content %}
+{# <link rel="stylesheet" href="{% static '…/….css' %}" /> #}
+{% endblock before_content %}
+
+{% block content %}
 <h1>{% spaceless %}
   {% if has_proper_name or not is_authenticated %}
   Hello, {{name}}.
@@ -5,3 +10,8 @@
   Hello, <samp>{{name}}</samp>.
   {% endif %}
 {% endspaceless %}</h1>
+{% endblock content %}
+
+{% block after_content %}
+{# <script … src="{% static '…/….js' %}" /> #}
+{% endblock after_content %}
