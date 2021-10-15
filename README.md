@@ -3,8 +3,8 @@
 
 This plugin greets a user by name, and serves as a sample plugin for https://github.com/TACC/Core-CMS.
 
-- __`__dist-name__`__: `taccsite_sample`
-- __`__package_name__`__: `taccsite_sample`
+- __`__dist-name__`__: `djangocms-tacc-sample`
+- __`__package_name__`__: `djangocms_tacc_sample`
 - __`__ClassName__`__: `TaccsiteSample`
 - __"Plugin Name"__: "Sample (Greet User)"
 

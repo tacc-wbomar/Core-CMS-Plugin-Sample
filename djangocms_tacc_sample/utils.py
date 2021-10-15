@@ -1,5 +1,5 @@
 """
-.. module:: taccsite_sample.utils
+.. module:: djangocms_tacc_sample.utils
    :synopsis: Utilities to process user name.
 """
 

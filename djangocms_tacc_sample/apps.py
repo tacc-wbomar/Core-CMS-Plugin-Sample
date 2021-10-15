@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 class TaccsiteSampleConfig(AppConfig):
-    name = 'taccsite_sample'
+    name = 'djangocms_tacc_sample'
     verbose_name = 'Sample (Greet User)'
