@@ -3,8 +3,9 @@
 
 This plugin greets a user by name, and serves as a sample plugin for https://github.com/TACC/Core-CMS.
 
-- __`__plugin_name__`__: `taccsite_sample`
-- __`__PluginName__`__: `TaccsiteSample`
+- __`__dist-name__`__: `taccsite_sample`
+- __`__package_name__`__: `taccsite_sample`
+- __`__ClassName__`__: `TaccsiteSample`
 - __"Plugin Name"__: "Sample (Greet User)"
 
 ## Quick Start
