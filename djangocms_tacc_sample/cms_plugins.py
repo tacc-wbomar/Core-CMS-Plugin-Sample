@@ -26,7 +26,6 @@ class TaccsiteSamplePlugin(CMSPluginBase):
     allow_children = False
     # NOTE: Use case is unclear
     # admin_preview = True
-    # NOTE: To change for all TACC plugins add taccsite_cms/templates/admin/...
     # change_form_template = 'templates/plugin_change_form.html'
     # NOTE: To change field widget and other attribute beyond `models.…Field`
     #       (Optionally, consider `formfield_overrides`:
